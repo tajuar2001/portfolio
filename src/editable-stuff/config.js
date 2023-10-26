@@ -6,30 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Tajar",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Bhuiyan",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/tajuar2001",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/tajuarb/",
     },
   ],
 };
@@ -54,8 +42,8 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I am a rising senior at the University of Michigan's College of Engineering with a strong background in computer technology, enhanced by internships at Viasat Inc., Carrier, and RippleMatch. Originally from a rural village in Bangladesh, my early exposure to programming has fueled a lifelong passion for algorithms and mathematical tools, which I explore both in and out of academic settings. In addition to my technical pursuits, I enjoy cooking, gardening, and various tech-based hobbies.",
+  resume: "https://drive.google.com/file/d/1g-63QP1Y9RKjFLzdLeQlFgXUEnyl8jLv/view?usp=sharing",
 };
 
 // PROJECTS SECTION
