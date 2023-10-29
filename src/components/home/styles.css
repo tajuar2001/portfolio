@@ -1,0 +1,8 @@
+/* styles.css */
+.logo {
+    width: 100px; /* or any specific size */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* block level element */
+    margin: 0 auto; /* centering if within a text-center container */
+  }
+  

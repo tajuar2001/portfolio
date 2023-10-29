@@ -1,6 +1,6 @@
 {
-  "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
+  "name": "dev-portfolio",
+  "description": "Personal website/portfolio",
   "homepage": "https://tajuar2001.github.io",
   "version": "2.0.0",
   "dependencies": {
@@ -32,8 +32,8 @@
     "custom-deploy": "node pages.js"
   },
   "engines": {
-    "npm": "^8.11.0",
-    "node": "^18.13.0"
+    "npm": "^10.2.0",
+    "node": "^21.1.0"
   },
   "eslintConfig": {
     "extends": [
