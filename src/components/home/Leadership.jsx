@@ -1,8 +1,7 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
 import { Jumbotron } from "./migration";
 
-const Leadership = ({ heading, message, img, imageSize }) => {
+const Leadership = ({ heading, message, img }) => {
   return (
     <Jumbotron
       id="leadership"
@@ -15,27 +14,24 @@ const Leadership = ({ heading, message, img, imageSize }) => {
           <p className="lead">{message}</p>
         </div>
         <div className="col-md-7">
-          <Carousel>
-            {img.map((value, index) => {
-              return (
-                <Carousel.Item key={index}>
-                  <img
-                    className="d-block w-100"
-                    src={value.img}
-                    alt="First slide"
-                    width={imageSize.width}
-                    height={imageSize.height}
-                  />
-                  <Carousel.Caption>
-                    <h3>{value.label}</h3>
-                    <p>
-                      {value.paragraph}
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              );
-            })}
-          </Carousel>
+          {img.map((value, index) => (
+            <div key={index} className="d-flex align-items-center mb-3">
+              <img
+                src={value.img}
+                alt={value.label}
+                style={{ 
+                  width: "100px", 
+                  height: "100px", 
+                  objectFit: "cover", 
+                  marginRight: "20px" // You can adjust the value as needed
+                }}
+              />
+              <div style={{ marginLeft: "20px" }}> {/* Added margin to the text container */}
+                <h3>{value.label}</h3>
+                <p>{value.paragraph}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </Jumbotron>
