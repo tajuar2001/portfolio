@@ -169,9 +169,43 @@ const experiences = {
   ]
 }
 
+const books = {
+  show: true,
+  booksList: [
+    {
+      title: "Clean Code",
+      author: "Robert C. Martin",
+      image: require("/home/tajuarb/Coding/portfolio/src/assets/img/clean.jpg"),
+      about: "Clean Codeis divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code―of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.",
+      publicationDate: "2008",
+    },
+    {
+      title: "The Algorithm Design Manual",
+      author: "Steven S. Skiena",
+      image: require("/home/tajuarb/Coding/portfolio/src/assets/img/algomanul.jpg"),
+      about: "Algorithm Design Manual provides straightforward access to combinatorial algorithms technology, stressing design over analysis. The first part, Techniques, provides accessible instruction on methods for designing and analyzing computer algorithms. The second part, Resources, is intended for browsing and reference, and comprises the catalog of algorithmic resources, implementations and an extensive bibliography.",
+      publicationDate: "2008",
+    },
+    {
+      title: "The Pragmatic Programmer",
+      author: "Andrew Hunt and David Thomas",
+      image: require("/home/tajuarb/Coding/portfolio/src/assets/img/pragmatic.jpg"),
+      about:"Fight software rot; Avoid the trap of duplicating knowledge; Write flexible, dynamic, and adaptable code; Avoid programming by coincidence; Bullet-proof your code with contracts, assertions, and exceptions; Capture real requirements; Test ruthlessly and effectively; Delight your users; Build teams of pragmatic programmers; and Make your developments more precise with automation. Written as a series of self-contained sections and filled with entertaining anecdotes, thoughtful examples, and interesting analogies, The Pragmatic Programmer illustrates the best practices and major pitfalls of many different aspects of software development.",
+      publicationDate: "2019",
+    },
+    {
+      title: "The Rust Programming Language",
+      author: "Steve Klabnik and Carol Nichols",
+      image: require("/home/tajuarb/Coding/portfolio/src/assets/img/rust.png"),
+      about: "The Rust Programming Language is the official book on Rust: an open source systems programming language that helps you write faster, more reliable software. Rust offers control over low-level details (such as memory usage) in combination with high-level ergonomics, eliminating the hassle traditionally associated with low-level languages.",
+      publicationDate: "2015",
+    },
+  ],
+};
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, books };

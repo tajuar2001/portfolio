@@ -10,6 +10,8 @@ import {
   getInTouch,
   experiences
 } from "./editable-stuff/config.js";
+import Books from "./components/home/Books";
+import { books } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -68,6 +70,11 @@ const Home = React.forwardRef((props, ref) => {
           heading={skills.heading}
           hardSkills={skills.hardSkills}
           softSkills={skills.softSkills}
+        />
+      )}
+      {books.show && (
+        <Books
+          books = {books.booksList}
         />
       )}
       
