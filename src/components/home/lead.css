@@ -1,0 +1,54 @@
+.leadership-section {
+    background-color: white; /* Or any color that suits your design */
+    padding: 4rem 0; /* Add padding as per your design */
+}
+
+.leadership-heading {
+    font-size: 2rem; /* Adjust the size as needed */
+    margin-bottom: 2rem;
+}
+
+.affiliation-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 1rem; /* Space between cards */
+    justify-items: center; /* Center the cards horizontally */
+    margin: auto;
+    max-width: 960px; /* Adjust the max-width as per your design */
+}
+
+.affiliation-card {
+    background-color: #f9f9f9; /* Light background for the card */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; /* Adjust padding as per your design */
+    transition: box-shadow 0.3s ease;
+    width: 100%; /* Full width of the column */
+}
+
+.affiliation-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.affiliation-logo {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.affiliation-card h3 {
+    font-size: 1.2rem; /* Adjust size as needed */
+    text-align: center;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .affiliation-cards-container {
+        grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+}

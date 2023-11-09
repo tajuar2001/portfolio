@@ -181,6 +181,14 @@ const books = {
       
     },
     {
+      title: "Design Patterns: Elements of Reusable Object-Oriented Software",
+      author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      image: require("/home/tajuarb/Coding/portfolio/src/assets/img/designpatterns.jpg"),
+      about: "Design Patterns is a modern classic in the literature of object-oriented development, offering timeless and elegant solutions to common problems in software design. It describes patterns for managing object creation, composing objects into larger structures, and coordinating control flow between objects.",
+      publicationDate: "1994",
+    },
+    
+    {
       title: "The Algorithm Design Manual",
       author: "Steven S. Skiena",
       image: require("/home/tajuarb/Coding/portfolio/src/assets/img/algomanul.jpg"),

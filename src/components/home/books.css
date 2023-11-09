@@ -63,3 +63,53 @@
 .book:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+
+/* Books Section Enhancements */
+#books {
+    padding: 60px 10%;
+    background-color: #f8f9fa; /* Light background for the entire section */
+}
+
+.books-container {
+    gap: 40px; /* Increase space between books for a cleaner look */
+}
+
+.book {
+    max-width: 240px; /* Increase the card size */
+    padding: 20px;
+    background-color: #ffffff; /* Card background color */
+    border: none; /* Optionally remove borders for a cleaner look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.book-image {
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Consistent spacing */
+}
+
+.book-info h3 {
+    font-size: 1.4em; /* Larger font for book title */
+    color: #333333; /* Darker color for better readability */
+    margin-bottom: 15px;
+}
+
+.book-info p {
+    font-size: 1em; /* Readable font size */
+    color: #555555; /* Subdued text color for descriptions */
+}
+
+.book:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.1); /* Enhanced shadow on hover for depth */
+}
+#books h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2rem; /* 32px */
+    font-weight: 300;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #333;
+}

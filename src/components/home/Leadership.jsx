@@ -1,37 +1,31 @@
 import React from "react";
 import { Jumbotron } from "./migration";
+import "./lead.css"; // Ensure this CSS file contains the styles previously discussed
 
 const Leadership = ({ heading, message, img }) => {
   return (
-    <Jumbotron
-      id="leadership"
-      className="m-0"
-      style={{ backgroundColor: "white" }}
-    >
-      <h2 className="display-4 pb-5 text-center">{heading}</h2>
-      <div className="row">
+    <Jumbotron id="leadership" className="leadership-jumbotron">
+      <h2 className="leadership-heading text-center">{heading}</h2>
+      <div className="row leadership-content">
         <div className="col-md-5">
-          <p className="lead">{message}</p>
+          <p className="lead leadership-message">{message}</p>
         </div>
         <div className="col-md-7">
-          {img.map((value, index) => (
-            <div key={index} className="d-flex align-items-center mb-3">
-              <img
-                src={value.img}
-                alt={value.label}
-                style={{ 
-                  width: "100px", 
-                  height: "100px", 
-                  objectFit: "cover", 
-                  marginRight: "20px" // You can adjust the value as needed
-                }}
-              />
-              <div style={{ marginLeft: "20px" }}> {/* Added margin to the text container */}
-                <h3>{value.label}</h3>
-                <p>{value.paragraph}</p>
+          <div className="affiliation-cards-container">
+            {img.map((value, index) => (
+              <div key={index} className="affiliation-card">
+                <img
+                  src={value.img}
+                  alt={value.label}
+                  className="affiliation-logo"
+                />
+                <div className="affiliation-text">
+                  <h3>{value.label}</h3>
+                  <p>{value.paragraph}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </Jumbotron>
