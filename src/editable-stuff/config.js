@@ -56,7 +56,7 @@ const repos = {
   heading: "Projects",
   gitHubUsername: "tajuar2001",
   reposLength: 0,
-  specificRepos: ["Spatial-Audio","Lazy-Tune" , "Spotify-Playlist-Generator", "Bank-Management"],
+  specificRepos: ["Lazy-Tune", "Spatial-Audio" , "Playlist-Generator", "Database-Management"],
 };
 
 // Leadership SECTION
