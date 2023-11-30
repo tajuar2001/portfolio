@@ -4,7 +4,7 @@ import './books.css';
 const Books = ({ books }) => {
   return (
     <section id="books">
-      <h2 className="display-4 pb-5 text-center">What I'm Reading Now</h2>
+      <h2 className="display-4 pb-3 text-center">What I'm Reading Now</h2>
       <div className="books-container">
         {books.map((book, index) => (
           <div key={index} className="book">
