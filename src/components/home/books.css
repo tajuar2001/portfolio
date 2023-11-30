@@ -89,7 +89,7 @@
 }
 
 .book-info h3 {
-    font-size: 1.4em; /* Larger font for book title */
+    font-size: 1.3em; /* Larger font for book title */
     color: #333333; /* Darker color for better readability */
     margin-bottom: 15px;
 }
@@ -103,13 +103,19 @@
     transform: translateY(-5px); /* Slight lift effect on hover */
     box-shadow: 0 12px 20px 0 rgba(0,0,0,0.1); /* Enhanced shadow on hover for depth */
 }
+
 #books h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* Override Bootstrap font-weight for display-4 if it's too bold */
+    font-weight: normal; /* Or you can use 300, 400 depending on your preference */
+    
+    /* Add more padding below the title to create space between title and content */
+    padding-bottom: 2rem; /* Adjust the value as needed */
+    
+    /* Rest of your styles... */
     font-size: 2rem; /* 32px */
-    font-weight: 300;
     color: #333;
     text-transform: uppercase;
-    margin-bottom: 1rem;
-    padding-bottom: .5rem;
+    margin-bottom: 1rem; /* You might want to increase this if more space is needed */
     border-bottom: 2px solid #333;
 }
+

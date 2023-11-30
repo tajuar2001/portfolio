@@ -5,7 +5,7 @@ import "./lead.css"; // Ensure this CSS file contains the styles previously disc
 const Leadership = ({ heading, message, img }) => {
   return (
     <Jumbotron id="leadership" className="leadership-jumbotron">
-      <h2 className="leadership-heading text-center">{heading}</h2>
+      <h2 className="display-4 pb-5 text-center">{heading}</h2>
       <div className="row leadership-content">
         <div className="col-md-5">
           <p className="lead leadership-message">{message}</p>
