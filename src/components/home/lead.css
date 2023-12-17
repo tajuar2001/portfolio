@@ -6,6 +6,7 @@
 .leadership-heading {
     font-size: 2rem; /* Adjust the size as needed */
     margin-bottom: 2rem;
+    text-align: center; /* Center heading text */
 }
 
 .affiliation-cards-container {
@@ -50,5 +51,10 @@
 @media (max-width: 768px) {
     .affiliation-cards-container {
         grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+
+    /* Centering text in smaller screens for better readability */
+    .leadership-message {
+        text-align: center;
     }
 }
